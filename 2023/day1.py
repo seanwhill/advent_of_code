@@ -23,7 +23,14 @@ def find_first_occurrence(main_string, substrings):
             return substring, index
     return None, -1
 
+# abcone    12
 
+# one -> abc == one?
+#three -> abcon == three?
+# ...
+# nine ..
+
+# one -> bco == one 
 
 def sol():
     
