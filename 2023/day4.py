@@ -79,7 +79,7 @@ def sol2():
 
         sum = 0
         for idx, card in enumerate(scoreCards):
-            sum += 1 + calculateCards(card, idx + 1)
+            sum += 1 + calculateCards(card, idx + 1) # + 1 to include the card itself 
 
 
     return sum
